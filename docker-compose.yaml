@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+
+  php-opencv:
+    image: ikuai/nginx-php-fpm-7.2-opencv
+    container_name: php-opencv
+    volumes:
+      - ./php-opencv-examples:/php-opencv-examples
